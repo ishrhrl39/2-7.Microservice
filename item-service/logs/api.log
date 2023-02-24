@@ -1,0 +1,37 @@
+2023-02-24T22:14:22.879+09:00  INFO 12476 --- [restartedMain] org.msa.item.ItemServiceApplication      : Starting ItemServiceApplication using Java 17.0.4.1 with PID 12476 (C:\Users\이현섭\git\2-4.Microservice\item-service\bin\main started by 이현섭 in C:\Users\이현섭\git\2-4.Microservice\item-service)
+2023-02-24T22:14:22.886+09:00 DEBUG 12476 --- [restartedMain] org.msa.item.ItemServiceApplication      : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-24T22:14:22.887+09:00  INFO 12476 --- [restartedMain] org.msa.item.ItemServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-24T22:14:22.957+09:00  INFO 12476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24T22:14:22.957+09:00  INFO 12476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24T22:14:24.214+09:00  INFO 12476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24T22:14:24.340+09:00  INFO 12476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+2023-02-24T22:14:25.072+09:00  INFO 12476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24T22:14:25.083+09:00  INFO 12476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24T22:14:25.083+09:00  INFO 12476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-24T22:14:25.155+09:00  INFO 12476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24T22:14:25.156+09:00  INFO 12476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2198 ms
+2023-02-24T22:14:25.377+09:00  INFO 12476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24T22:14:25.469+09:00  INFO 12476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-24T22:14:25.750+09:00  WARN 12476 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-24T22:14:25.885+09:00  INFO 12476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24T22:14:26.076+09:00  INFO 12476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@21fe89ea
+2023-02-24T22:14:26.078+09:00  INFO 12476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24T22:14:26.116+09:00  INFO 12476 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-02-24T22:14:26.116+09:00  WARN 12476 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-02-24T22:14:27.282+09:00  INFO 12476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24T22:14:27.405+09:00  INFO 12476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24T22:14:28.115+09:00  WARN 12476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24T22:14:28.515+09:00  INFO 12476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24T22:14:28.581+09:00  INFO 12476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24T22:14:28.589+09:00  INFO 12476 --- [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 6.346 seconds (process running for 7.517)
+2023-02-24T22:14:34.659+09:00  INFO 12476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24T22:14:34.659+09:00  INFO 12476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24T22:14:34.660+09:00  INFO 12476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-24T22:14:34.908+09:00  WARN 12476 --- [http-nio-8080-exec-1] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.msa.item.controller.ItemController
+2023-02-24T22:14:34.972+09:00  WARN 12476 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.msa.item.exception.ApiException: test에러]
+2023-02-24T22:15:07.879+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-24T22:15:07.893+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-24T22:15:07.894+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-24T22:15:07.901+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24T22:15:07.904+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24T22:15:07.909+09:00  INFO 12476 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
